@@ -1,0 +1,49 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Data Ingestion: Hydrate DB",
+            "type": "python",
+            "request": "launch",
+            "module": "src.ingestion.hydrate_db",
+            "args": [
+                "--source", "data/raw/sample_ticks.csv",
+                "--collection", "equities"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Simulation: Run Shock Scenario",
+            "type": "python",
+            "request": "launch",
+            "module": "src.simulation.run_shock_scenario",
+            "args": [
+                "--portfolio", "data/portfolios/base.json",
+                "--halt-duration", "120",
+                "--confidence-level", "0.99"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Debug Pytest",
+            "type": "python",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "${file}"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

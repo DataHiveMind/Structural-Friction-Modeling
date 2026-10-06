@@ -1,0 +1,106 @@
+{
+  "source": "mongodb",
+  "database": "structural_friction_modeling",
+  "bars_collection": "market_bars",
+  "symbols": [
+    "AAPL",
+    "AMZN",
+    "GOOGL",
+    "JPM",
+    "META",
+    "MSFT",
+    "NVDA",
+    "TSLA"
+  ],
+  "companies": {
+    "AAPL": {
+      "rows": 252,
+      "start_utc": "2025-10-06T04:00:00+00:00",
+      "end_utc": "2026-10-06T04:00:00+00:00",
+      "first_close": 255.74530029296875,
+      "last_close": 333.1199951171875,
+      "close_change_percent": 30.254591085577044,
+      "mean_rolling_volatility_per_bar": 0.015025496827455007,
+      "total_volume": 12097478048.0,
+      "exchange": "NMS"
+    },
+    "AMZN": {
+      "rows": 252,
+      "start_utc": "2025-10-06T04:00:00+00:00",
+      "end_utc": "2026-10-06T04:00:00+00:00",
+      "first_close": 220.89999389648438,
+      "last_close": 256.1199951171875,
+      "close_change_percent": 15.943866995853128,
+      "mean_rolling_volatility_per_bar": 0.020688127288798538,
+      "total_volume": 11675909239.0,
+      "exchange": "NMS"
+    },
+    "GOOGL": {
+      "rows": 252,
+      "start_utc": "2025-10-06T04:00:00+00:00",
+      "end_utc": "2026-10-06T04:00:00+00:00",
+      "first_close": 249.7803955078125,
+      "last_close": 348.4200134277344,
+      "close_change_percent": 39.490536364707076,
+      "mean_rolling_volatility_per_bar": 0.019284434168587716,
+      "total_volume": 8062115127.0,
+      "exchange": "NMS"
+    },
+    "JPM": {
+      "rows": 252,
+      "start_utc": "2025-10-06T04:00:00+00:00",
+      "end_utc": "2026-10-06T04:00:00+00:00",
+      "first_close": 304.8511047363281,
+      "last_close": 331.5799865722656,
+      "close_change_percent": 8.767848113608068,
+      "mean_rolling_volatility_per_bar": 0.01409007834933889,
+      "total_volume": 2290930384.0,
+      "exchange": "NYQ"
+    },
+    "META": {
+      "rows": 252,
+      "start_utc": "2025-10-06T04:00:00+00:00",
+      "end_utc": "2026-10-06T04:00:00+00:00",
+      "first_close": 713.2406616210938,
+      "last_close": 742.8400268554688,
+      "close_change_percent": 4.149982863722301,
+      "mean_rolling_volatility_per_bar": 0.024857211305677557,
+      "total_volume": 4453460935.0,
+      "exchange": "NMS"
+    },
+    "MSFT": {
+      "rows": 252,
+      "start_utc": "2025-10-06T04:00:00+00:00",
+      "end_utc": "2026-10-06T04:00:00+00:00",
+      "first_close": 524.256591796875,
+      "last_close": 530.5399780273438,
+      "close_change_percent": 1.1985326133778562,
+      "mean_rolling_volatility_per_bar": 0.018741401623053315,
+      "total_volume": 7985420233.0,
+      "exchange": "NMS"
+    },
+    "NVDA": {
+      "rows": 252,
+      "start_utc": "2025-10-06T04:00:00+00:00",
+      "end_utc": "2026-10-06T04:00:00+00:00",
+      "first_close": 185.09654235839844,
+      "last_close": 240.41000366210938,
+      "close_change_percent": 29.88357351192907,
+      "mean_rolling_volatility_per_bar": 0.02417214899952175,
+      "total_volume": 40647980734.0,
+      "exchange": "NMS"
+    },
+    "TSLA": {
+      "rows": 252,
+      "start_utc": "2025-10-06T04:00:00+00:00",
+      "end_utc": "2026-10-06T04:00:00+00:00",
+      "first_close": 453.25,
+      "last_close": 380.2250061035156,
+      "close_change_percent": -16.111416193377693,
+      "mean_rolling_volatility_per_bar": 0.028744574479978458,
+      "total_volume": 14778766198.0,
+      "exchange": "NMS"
+    }
+  },
+  "dashboard_png": "docs\\images\\project_run\\market_dashboard.png"
+}
